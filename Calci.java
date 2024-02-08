@@ -28,11 +28,11 @@ class Calci {
         return operand_1 / operand_2;
     }
 
-    int square(int operand_1) {
+    float square(float operand_1) {
         return (operand_1 * operand_1);
     }
 
-    int cube(int operand_1) {
+    float cube(float operand_1) {
         return ((operand_1 * operand_1) * operand_1);
     }
 
